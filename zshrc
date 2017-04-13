@@ -5,7 +5,11 @@ export ZSH=/Users/philippelachance/.oh-my-zsh
 # ZSH_THEME="steeef"
 # ZSH_THEME="miloshadzic"
 # ZSH_THEME="pygmalion"
-ZSH_THEME="simple"
+# ZSH_THEME="simple"
+# ZSH_THEME="michelebologna"
+# ZSH_THEME="sporty_256"
+# ZSH_THEME="superjarin"
+  ZSH_THEME="sunrise"
 
 plugins=(git osx)
 

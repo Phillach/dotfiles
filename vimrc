@@ -8,6 +8,7 @@ Plug 'tpope/vim-commentary'
 Plug 'jszakmeister/vim-togglecursor'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
+Plug 'othree/html5.vim'
 
 " Fileype-specific plugins
 Plug 'mattn/emmet-vim', { 'for': ['html', 'eruby', 'ruby', 'scss', 'css', 'yaml', 'haml', 'less', 'javascript', 'javascript.jsx']  }
