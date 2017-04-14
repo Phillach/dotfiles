@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 " Global plugins
 Plug 'remiprev/vim-colors-solarized'
-Plug 'jiangmiao/auto-pairs'
+Plug 'carakan/new-railscasts-theme'
 Plug 'tpope/vim-commentary'
 Plug 'jszakmeister/vim-togglecursor'
 Plug 'scrooloose/nerdtree'
