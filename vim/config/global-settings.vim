@@ -67,7 +67,7 @@ function! IsHelp()
 endfunction
 
 function! GetName()
- return expand("%:t")==''?'<none>':substitute(expand("%:p"), getcwd() . "/", "", "g")
+  return expand("%:t")==''?'<none>':substitute(expand("%:p"), getcwd() . "/", "", "g")
 endfunction
 
 set statusline=%1*\ %{GetName()}\ %3*
