@@ -8,6 +8,7 @@ set title
 " Misc. options
 " ----------------------------------------------------------------------------------------------------
 syntax on
+set nocompatible " Enter the current millenium
 set list listchars=tab:»·,trail:·,nbsp:· " Display extra whitespaces
 set showcmd " Display the command as we type it
 set showmode " Display the current mode
