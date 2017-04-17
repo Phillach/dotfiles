@@ -1,17 +1,13 @@
 " Theme
-syntax on
 colorscheme solarized
 
 " Window title
 let &titlestring=hostname()
 set title
 
-" Plugins-settings
-" ----------------------------------------------------------------------------------------------------
-autocmd vimenter * NERDTree " Open NERDTree when vim is opened
-
 " Misc. options
 " ----------------------------------------------------------------------------------------------------
+syntax on
 set list listchars=tab:»·,trail:·,nbsp:· " Display extra whitespaces
 set showcmd " Display the command as we type it
 set showmode " Display the current mode
@@ -20,7 +16,7 @@ set smartcase " Smart-case search mode
 set incsearch " Start to search as soon as we type
 set mouse= " Never use the mouse
 set number " Show line numbers
-set ts=2 " A tab = 4 spaces
+set ts=2 " A tab = 2 spaces
 set sw=2 " Shift width
 set sts=2 " Short tab stop
 set et " Use spaces instead of tabs
