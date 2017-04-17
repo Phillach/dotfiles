@@ -14,6 +14,7 @@ set showmode " Display the current mode
 set ignorecase " Ignore case when searching
 set smartcase " Smart-case search mode
 set incsearch " Start to search as soon as we type
+set path+=**
 set mouse= " Never use the mouse
 set number " Show line numbers
 set ts=2 " A tab = 2 spaces
