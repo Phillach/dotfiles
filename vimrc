@@ -22,3 +22,4 @@ call plug#end()
 " Config
 " --------------------
 source $HOME/.vim/config/global-settings.vim
+source $HOME/.vim/config/plugin-settings.vim
