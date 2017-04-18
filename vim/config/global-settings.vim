@@ -1,12 +1,9 @@
 " Theme
+" --------------------
 colorscheme solarized
 
-" Window title
-let &titlestring=hostname()
-set title
-
 " Misc. options
-" ----------------------------------------------------------------------------------------------------
+" --------------------
 syntax on
 set nocompatible " Enter the current millenium
 set list listchars=tab:»·,trail:·,nbsp:· " Display extra whitespaces
@@ -51,15 +48,12 @@ set clipboard=unnamed " Make sure we can copy-paste into the system clipboard
 set nostartofline
 set lazyredraw " Do not redraw screen in non-essential situations
 
-" Always use UTF-8
-" ----------------------------------------------------------------------------------------------------
-if !has('nvim')
-  set encoding=utf-8
-  set fileencoding=utf-8
-end
+" Color the 101st row
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%101v', 100)
 
 " Statusline
-" ----------------------------------------------------------------------------------------------------
+" --------------------
 function! IsHelp()
   return &buftype=='help'?' (help) ':''
 endfunction
