@@ -13,3 +13,4 @@
   s = status
   a = add -A
   c = commit -m
+  po = push origin
