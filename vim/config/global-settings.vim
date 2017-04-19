@@ -47,6 +47,7 @@ set shell=zsh
 set clipboard=unnamed " Make sure we can copy-paste into the system clipboard
 set nostartofline
 set lazyredraw " Do not redraw screen in non-essential situations
+set nowrap
 
 " Color the 101st row
 highlight ColorColumn ctermbg=magenta
