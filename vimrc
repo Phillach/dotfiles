@@ -10,6 +10,7 @@ Plug 'tpope/vim-surround'
 Plug 'ervandew/supertab'
 Plug 'chun-yang/auto-pairs'
 Plug 'vim-airline/vim-airline'
+Plug 'kien/ctrlp.vim'
 
 " Fileype-specific plugins
 " --------------------
