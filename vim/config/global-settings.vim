@@ -1,6 +1,6 @@
 " Theme
-" --------------------
-colorscheme solarized
+" -------------------
+colorscheme new-railscasts
 
 " Misc. options
 " --------------------

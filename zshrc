@@ -1,16 +1,9 @@
 export ZSH=/Users/philippelachance/.oh-my-zsh
 
 # Theme
-# ZSH_THEME="af-magic"
-# ZSH_THEME="steeef"
-# ZSH_THEME="miloshadzic"
-# ZSH_THEME="pygmalion"
-# ZSH_THEME="simple"
-# ZSH_THEME="michelebologna"
-  ZSH_THEME="sporty_256"
-# ZSH_THEME="superjarin"
-# ZSH_THEME="sunrise"
-# ZSH_THEME="spaceship"
+# --------------------
+# ZSH_THEME="crunch"
+ZSH_THEME="steeef"
 
 plugins=(git osx)
 
