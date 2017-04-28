@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 " Global plugins
 " --------------------
-Plug 'carakan/new-railscasts-theme'
+Plug 'danilo-augusto/vim-afterglow'
 Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
