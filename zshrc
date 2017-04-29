@@ -12,4 +12,3 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/philippelachance
 
 # alias
 alias g="git"
-alias ls="ls -hFG --color=always --group-directories-first"
