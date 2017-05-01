@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 " Global plugins
 " --------------------
-Plug 'danilo-augusto/vim-afterglow'
+Plug 'rhysd/vim-color-spring-night'
 Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'

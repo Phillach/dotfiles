@@ -1,6 +1,6 @@
 " Theme
 " -------------------
-colorscheme afterglow
+colorscheme spring-night
 syntax on
 
 " Misc. options
