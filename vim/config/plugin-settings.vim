@@ -9,3 +9,7 @@ map <leader>nf :NERDTreeFind<cr>
 
 " ----------[SpringNight theme for airline]----------
 let g:airline_theme = 'spring_night'
+
+" ----------[airline-colornum]----------
+set cursorline
+hi clear CursorLine

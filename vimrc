@@ -12,6 +12,7 @@ Plug 'chun-yang/auto-pairs'
 Plug 'vim-airline/vim-airline'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'ntpeters/vim-airline-colornum'
 
 " Fileype-specific plugins
 " --------------------
