@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 " Global plugins
 " --------------------
 Plug 'rhysd/vim-color-spring-night'
-Plug 'tpope/vim-commentary'
+Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'ervandew/supertab'
@@ -19,7 +19,7 @@ Plug 'ntpeters/vim-airline-colornum'
 Plug 'mattn/emmet-vim', { 'for': ['html', 'eruby', 'ruby', 'scss', 'css', 'yaml', 'haml', 'less', 'javascript', 'javascript.jsx']  }
 Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'scss']  }
-Plug 'pangloss/vim-javascript', { 'branch': 'develop', 'for': ['javascript', 'javascript.jsx']  }
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx']  }
 
 call plug#end()
 
