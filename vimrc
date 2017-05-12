@@ -27,3 +27,4 @@ call plug#end()
 " --------------------
 source $HOME/.vim/config/global-settings.vim
 source $HOME/.vim/config/plugin-settings.vim
+source $HOME/.vim/config/mappings.vim
