@@ -2,7 +2,7 @@ export ZSH=/Users/philippelachance/.oh-my-zsh
 
 # Theme
 # --------------------
-ZSH_THEME="af-magic"
+ZSH_THEME="steeef"
 
 plugins=(git osx)
 
