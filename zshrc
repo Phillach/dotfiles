@@ -2,7 +2,7 @@ export ZSH=/Users/philippelachance/.oh-my-zsh
 
 # Theme
 # --------------------
-ZSH_THEME="muse"
+ZSH_THEME="af-magic"
 
 plugins=(git osx)
 
@@ -12,7 +12,6 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/philippelachance
 
 # alias
 alias g="git"
-alias tls="tmux ls"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
