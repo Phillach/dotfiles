@@ -1,7 +1,7 @@
 " Bye bye, ESC
 inoremap jj <Esc>
 inoremap kk <Esc>
-inoremap <esc> <NOP>"
+inoremap <esc> <NOP>
 
 " Unbind arrows
 nnoremap <Up> <Esc>
@@ -17,7 +17,16 @@ nnoremap <Right> <Esc>
 vnoremap <Right> <NOP>
 inoremap <Right> <NOP>
 
-" Q for quit
-command Q execute "q"
+" Q for quit command Q execute "q"
+command Q q
 " W for w
 command W w
+
+" Move pane to avoid confusion with tmux
+" Usage: CTRL+[H, J, K, L]
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+map .. :NERDTreeToggle .<CR>

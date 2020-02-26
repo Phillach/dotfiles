@@ -1,4 +1,4 @@
-export ZSH=/Users/philippelachance/.oh-my-zsh
+export ZSH=/Users/flash/.oh-my-zsh
 
 # Theme
 # --------------------
