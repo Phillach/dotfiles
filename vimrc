@@ -3,7 +3,6 @@ call plug#begin('~/.vim/plugged')
 
 " Global plugins
 " --------------------
-Plug 'rhysd/vim-color-spring-night'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
@@ -21,6 +20,10 @@ Plug 'mattn/emmet-vim', { 'for': ['html', 'eruby', 'ruby', 'scss', 'css', 'yaml'
 Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'scss']  }
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx']  }
+
+" Theme
+" --------------------
+Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
