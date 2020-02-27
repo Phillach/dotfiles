@@ -2,9 +2,9 @@ export ZSH=/Users/flash/.oh-my-zsh
 
 # Theme
 # --------------------
-ZSH_THEME="af-magic"
+ZSH_THEME="agnoster"
 
-plugins=(git osx)
+plugins=(git osx zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
