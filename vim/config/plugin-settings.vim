@@ -7,9 +7,8 @@ map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
 
-" ----------[SpringNight theme for airline]----------
-" let g:colors_name='default'
-let g:airline_theme='bubblegum'
+" ----------[Theme for airline]----------
+let g:airline_theme='simple'
 
 " ----------[airline-colornum]----------
 set cursorline

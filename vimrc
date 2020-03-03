@@ -8,8 +8,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'ervandew/supertab'
 Plug 'chun-yang/auto-pairs'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'ntpeters/vim-airline-colornum'
@@ -24,6 +22,8 @@ Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx']  }
 " Theme
 " --------------------
 Plug 'joshdick/onedark.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
