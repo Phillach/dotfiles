@@ -10,7 +10,6 @@ Plug 'ervandew/supertab'
 Plug 'chun-yang/auto-pairs'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'ntpeters/vim-airline-colornum'
 
 " Fileype-specific plugins
 " --------------------
@@ -24,6 +23,7 @@ Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx']  }
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ntpeters/vim-airline-colornum'
 
 call plug#end()
 
