@@ -15,6 +15,7 @@
   c = commit -m
   po = push origin
   co = checkout
+  b = branch
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
