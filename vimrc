@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 " --------------------
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-surround'
 Plug 'ervandew/supertab'
 Plug 'chun-yang/auto-pairs'

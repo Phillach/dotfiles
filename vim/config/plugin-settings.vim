@@ -8,9 +8,22 @@ map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
 
+" ----------[NERDTree-git]----------
+let g:NERDTreeIndicatorMapCustom = {
+  \ "Modified"  : "✹",
+  \ "Staged"    : "✚",
+  \ "Untracked" : "✭",
+  \ "Renamed"   : "➜",
+  \ "Unmerged"  : "═",
+  \ "Deleted"   : "✖",
+  \ "Dirty"     : "✗",
+  \ "Clean"     : "✔︎",
+  \ 'Ignored'   : '☒',
+  \ "Unknown"   : "?"
+  \ }
+
 " ----------[Theme for airline]----------
 let g:airline_theme='simple'
-
-" ----------[airline-colornum]----------
 set cursorline
 hi clear CursorLine
+
