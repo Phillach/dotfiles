@@ -11,7 +11,6 @@ Plug 'ervandew/supertab'
 Plug 'chun-yang/auto-pairs'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'vim-scripts/YankRing.vim'
 
 " Fileype-specific plugins
 " --------------------
