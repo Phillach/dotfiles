@@ -31,3 +31,4 @@ nnoremap <C-H> <C-W><C-H>
 
 " Snippets
 nnoremap ,html :-1read $HOME/.vim/snippets/skeleton.html<CR>4jf>a
+nnoremap ,[ :-1read $HOME/.vim/snippets/checkbox.md<CR>f]a
