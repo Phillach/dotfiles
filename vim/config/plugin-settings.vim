@@ -7,6 +7,7 @@ let NERDTreeShowHidden = 1
 map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
+map .. :NERDTreeToggle .<CR>
 
 " ----------[NERDTree-git]----------
 let g:NERDTreeIndicatorMapCustom = {
