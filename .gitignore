@@ -1,11 +1,11 @@
 ### macOS ###
-*.DS_Store
+# General
+.DS_Store
 .AppleDouble
 .LSOverride
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
@@ -26,41 +26,30 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-### Sass ###
-.sass-cache/
-*.css.map
-
 ### Vim ###
-# swap
+# Swap
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]
-[._]s[a-v][a-z]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
 [._]sw[a-p]
-# session
+
+# Session
 Session.vim
-# temporary
+Sessionx.vim
+
+# Temporary
 .netrwhist
 *~
-# auto-generated tag files
+
+# Auto-generated tag files
 tags
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+# Persistent undo
+[._]*.un~
 
-# Folder config file
-Desktop.ini
+# Coc configuration directory
+.vim
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
+# VimPlug
+plugged
