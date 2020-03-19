@@ -33,3 +33,6 @@ set nobackup
 set nowritebackup
 set updatetime=300
 set shortmess+=c
+
+" ----------[coc.vim]----------
+let g:vim_markdown_folding_disabled = 1
