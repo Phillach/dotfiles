@@ -28,7 +28,3 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
-" Snippets
-nnoremap ,html :-1read $HOME/.vim/snippets/skeleton.html<CR>4jf>a
-nnoremap ,[ :-1read $HOME/.vim/snippets/checkbox.md<CR>f]A
