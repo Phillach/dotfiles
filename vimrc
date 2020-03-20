@@ -20,6 +20,7 @@ Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'scss']  }
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx']  }
 Plug 'plasticboy/vim-markdown', { 'for': ['markdown'] }
+Plug 'chrisbra/csv.vim'
 
 " Theme
 " --------------------
