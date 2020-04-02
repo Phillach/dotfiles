@@ -17,11 +17,6 @@ nnoremap <Right> <Esc>
 vnoremap <Right> <NOP>
 inoremap <Right> <NOP>
 
-" Q for quit command Q execute "q"
-command Q q
-" W for w
-command W w
-
 " Move pane to avoid confusion with tmux
 " Usage: CTRL+[H, J, K, L]
 nnoremap <C-J> <C-W><C-J>

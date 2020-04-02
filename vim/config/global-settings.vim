@@ -2,6 +2,11 @@
 " -------------------
 colorscheme onedark
 
+" Define the leader key
+" -------------------
+let mapleader = ","
+let g:mapleader = ","
+
 " Misc. options
 " --------------------
 syntax on
