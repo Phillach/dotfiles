@@ -27,12 +27,3 @@ let g:NERDTreeIndicatorMapCustom = {
 let g:airline_theme='simple'
 set cursorline
 hi clear CursorLine
-
-" ----------[coc.vim]----------
-set nobackup
-set nowritebackup
-set updatetime=300
-set shortmess+=c
-
-" ----------[coc.vim]----------
-let g:vim_markdown_folding_disabled = 1
