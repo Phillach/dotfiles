@@ -1,15 +1,14 @@
-" ----------[NERDTree]----------
+" nerdtree settings
+" --------------------
 let g:DTreeWinPos = "left"
 let g:NERDTreeWinPos = "left"
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
-let g:NERDTreeWinSize=35
+let g:NERDTreeWinSize=30
 let NERDTreeShowHidden = 1
-map <leader>nn :NERDTreeToggle<cr>
-map <leader>nb :NERDTreeFromBookmark<Space>
-map <leader>nf :NERDTreeFind<cr>
 map .. :NERDTreeToggle .<CR>
 
-" ----------[NERDTree-git]----------
+" nerdcommenter settings
+" --------------------
 let g:NERDTreeIndicatorMapCustom = {
   \ "Modified"  : "✹",
   \ "Staged"    : "✚",
@@ -23,7 +22,13 @@ let g:NERDTreeIndicatorMapCustom = {
   \ "Unknown"   : "?"
   \ }
 
-" ----------[Theme for airline]----------
+" airline settings
+" --------------------
 let g:airline_theme='simple'
 set cursorline
 hi clear CursorLine
+
+" vim-markdown settings
+" --------------------
+let g:vim_markdown_folding_disabled = 1
+
