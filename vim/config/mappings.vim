@@ -23,3 +23,13 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Faster save, quit & buffer delete
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
+
+" Tabs
+vnoremap < <gv
+vnoremap > >gv|
+vnoremap <Tab> >gv|
+vnoremap <S-Tab> <gv
