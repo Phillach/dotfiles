@@ -1,13 +1,15 @@
 " nerdtree settings
 " --------------------
-let g:DTreeWinPos = "left"
-let g:NERDTreeWinPos = "left"
-let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 let g:NERDTreeWinSize=30
 let NERDTreeShowHidden = 1
+let NERDTreeShowLineNumbers = 1
+let NERDTreeIgnore = ['\.DS_Store$', '\.swo$', '\.swp$', '\.git$', '\.bower-*', 'bower_components', 'node_modules']
+let NERDTreeMapActivateNode='l'
+let NERDTreeDirArrowExpandable='›'
+let NERDTreeDirArrowCollapsible='-'
 map .. :NERDTreeToggle .<CR>
 
-" nerdcommenter settings
+" nerdtree-git-plugin settings
 " --------------------
 let g:NERDTreeIndicatorMapCustom = {
   \ "Modified"  : "✹",
@@ -31,3 +33,7 @@ hi clear CursorLine
 " vim-markdown settings
 " --------------------
 let g:vim_markdown_folding_disabled = 1
+
+" undotree settings
+" --------------------
+nmap <Leader>u :UndotreeToggle<CR>
