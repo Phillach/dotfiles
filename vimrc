@@ -20,6 +20,7 @@ Plug 'mattn/emmet-vim', { 'for': ['html', 'eruby', 'ruby', 'scss', 'css', 'yaml'
 Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'scss']  }
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx']  }
+Plug 'leafgarland/typescript-vim', { 'for': ['typescript'] }
 Plug 'plasticboy/vim-markdown', { 'for': ['markdown'] }
 
 " Theme
