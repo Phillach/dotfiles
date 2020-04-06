@@ -25,7 +25,8 @@ Plug 'plasticboy/vim-markdown', { 'for': ['markdown'] }
 
 " Theme
 " ----------------------------------------------------------------------------------------------------
-Plug 'joshdick/onedark.vim'
+" Plug 'joshdick/onedark.vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Status bar
 " ----------------------------------------------------------------------------------------------------
