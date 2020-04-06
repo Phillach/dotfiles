@@ -8,7 +8,7 @@ ZSH_THEME="oxide"
 
 # Exports
 # ----------------------------------------------------------------------------------------------------
-export ZSH=/Users/flash/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/flash
 export PATH="$PATH:$HOME/.rvm/bin"

@@ -19,7 +19,8 @@ set smartcase " Smart-case search mode
 set incsearch " Start to search as soon as we type
 set path+=**
 set mouse= " Never use the mouse
-set number " Show line numbers
+set nu " Show line numbers
+set relativenumber " Show relative line numbers
 set ts=2 " A tab = 2 spaces
 set sw=2 " Shift width
 set sts=2 " Short tab stop
