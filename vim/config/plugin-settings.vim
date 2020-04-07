@@ -68,3 +68,11 @@ function! CtrlP_Statusline_2(...)
 
   return progress
 endf
+
+" vim-surround settings
+" ----------------------------------------------------------------------------------------------------
+nmap <Leader>) ysiw)
+nmap <Leader>] ysiw]
+nmap <Leader>} ysiw}
+nmap <Leader>" ysiw"
+nmap <Leader>' ysiw'

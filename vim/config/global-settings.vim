@@ -32,9 +32,8 @@ set laststatus=2 " Always show the status line
 set noautoread " Do not reload the file if it changes
 set title " Display filename in window title
 set showmatch " Show matching parentheses
-set noautoindent " Code auto-indent
-set nosmartindent " Smart code auto-indent
-set cindent " Use C-style indent
+set smartindent
+set noerrorbells
 set showtabline=0 " Always hide tabs
 set hlsearch " Highlight matching search result
 set vb t_vb= " No visual bell
