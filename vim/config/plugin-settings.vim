@@ -30,7 +30,7 @@ let g:NERDTreeIndicatorMapCustom = {
 
 " airline settings
 " ----------------------------------------------------------------------------------------------------
-let g:airline_theme='simple'
+let g:airline_theme='gruvbox'
 set cursorline
 hi clear CursorLine
 

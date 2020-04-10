@@ -1,8 +1,7 @@
 " Theme
 " ----------------------------------------------------------------------------------------------------
-colorscheme dracula
+colorscheme gruvbox
 set background=dark
-highlight Normal ctermfg=grey ctermbg=darkblue
 
 " Define the leader key
 " ----------------------------------------------------------------------------------------------------
