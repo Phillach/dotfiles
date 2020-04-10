@@ -76,3 +76,8 @@ nmap <Leader>] ysiw]
 nmap <Leader>} ysiw}
 nmap <Leader>" ysiw"
 nmap <Leader>' ysiw'
+
+" emmet settings
+" ----------------------------------------------------------------------------------------------------
+let g:user_emmet_leader_key = ';'
+let g:user_emmet_expandabbr_key = ';;'

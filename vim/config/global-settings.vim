@@ -1,7 +1,8 @@
 " Theme
 " ----------------------------------------------------------------------------------------------------
-"colorscheme onedark
 colorscheme dracula
+set background=dark
+highlight Normal ctermfg=grey ctermbg=darkblue
 
 " Define the leader key
 " ----------------------------------------------------------------------------------------------------
