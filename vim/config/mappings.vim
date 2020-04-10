@@ -41,3 +41,8 @@ vnoremap < <gv
 vnoremap > >gv|
 vnoremap <Tab> >gv|
 vnoremap <S-Tab> <gv
+
+" Move selected code up and down
+" ----------------------------------------------------------------------------------------------------
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv

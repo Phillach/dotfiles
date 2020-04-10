@@ -6,8 +6,8 @@ highlight Normal ctermfg=grey ctermbg=darkblue
 
 " Define the leader key
 " ----------------------------------------------------------------------------------------------------
-let mapleader = ","
-let g:mapleader = ","
+let mapleader = " "
+let g:mapleader = " "
 
 " Misc. options
 " ----------------------------------------------------------------------------------------------------
@@ -21,8 +21,7 @@ set smartcase " Smart-case search mode
 set incsearch " Start to search as soon as we type
 set path+=**
 set mouse= " Never use the mouse
-set nu " Show line numbers
-set relativenumber " Show relative line numbers
+set nu relativenumber " Show line number + relative number
 set ts=2 " A tab = 2 spaces
 set sw=2 " Shift width
 set sts=2 " Short tab stop
@@ -55,3 +54,4 @@ set clipboard=unnamed " Make sure we can copy-paste into the system clipboard
 set nostartofline
 set lazyredraw " Do not redraw screen in non-essential situations
 set nowrap
+set splitbelow splitright
