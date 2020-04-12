@@ -42,7 +42,12 @@ vnoremap > >gv|
 vnoremap <Tab> >gv|
 vnoremap <S-Tab> <gv
 
-" Move selected code up and down
+" Move selected lines up and down
 " ----------------------------------------------------------------------------------------------------
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
+
+" Navigate tabs using tab and shift+tab
+" ----------------------------------------------------------------------------------------------------
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT

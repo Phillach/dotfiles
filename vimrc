@@ -13,15 +13,17 @@ Plug 'chun-yang/auto-pairs'
 Plug 'kien/ctrlp.vim'
 Plug 'valloric/youcompleteme'
 Plug 'mbbill/undotree'
+Plug 'mkitt/tabline.vim'
 
 " Fileype-specific plugins
 " ----------------------------------------------------------------------------------------------------
-Plug 'mattn/emmet-vim', { 'for': ['html', 'eruby', 'ruby', 'scss', 'css', 'yaml', 'haml', 'less', 'javascript', 'javascript.jsx']  }
-Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
+Plug 'mattn/emmet-vim', { 'for': ['html', 'scss', 'css', 'yaml', 'haml', 'javascript', 'javascript.jsx']  }
+Plug 'othree/html5.vim', { 'for': ['html'] }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'scss']  }
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx']  }
 Plug 'leafgarland/typescript-vim', { 'for': ['typescript'] }
 Plug 'plasticboy/vim-markdown', { 'for': ['markdown'] }
+Plug 'ap/vim-css-color', { 'for': ['css', 'scss']  }
 
 " Theme
 " ----------------------------------------------------------------------------------------------------
