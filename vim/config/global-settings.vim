@@ -1,6 +1,7 @@
 " Theme
 " ----------------------------------------------------------------------------------------------------
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme nord
 set background=dark
 
 " Define the leader key
