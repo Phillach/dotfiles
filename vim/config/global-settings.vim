@@ -1,6 +1,7 @@
 " Theme
 " ----------------------------------------------------------------------------------------------------
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme dracula
 set background=dark
 
 " Define the leader key
