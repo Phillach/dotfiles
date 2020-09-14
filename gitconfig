@@ -14,6 +14,7 @@
   a = add -A
   c = commit -m
   po = push origin
+  pu = pull origin
   co = checkout
   b = branch
   ac = commit -a -m
